@@ -44,3 +44,20 @@ virtualenv==20.14.1
 
 
 $ source venv/Scripts/activate  	   # puts us back into the virtual environment 
+-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+$ mkdir src                             # created a src folder to hold my project
+$ cd src
+(venv)
+
+E849679@AZ43LT8ZQN3D3 MINGW64 /c/marks_work_docs/development/codeDjango/src (main)
+$ django-admin startproject mysite      # started a django project named "mysite" inside the src folder
+(venv) 
+
+$ cd mysite                             # this is where the manage.py is located and you will run this to start the local webserver
+(venv) 
+
+$ python manage.py runserver            # starts the local webserver.  Once you start the webserver you'll need another terminal to run commands - remember to start your virtual environment in the new terminal
+
+
+

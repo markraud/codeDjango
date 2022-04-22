@@ -25,10 +25,10 @@
   ## Usage 
   Don't know yet
 
-  ## License 
+  <!-- ## License 
   This application is covered by the GNU GPLv3 license.   Click the link for more information. 
 
-  [https://www.gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0)
+  [https://www.gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0) -->
 
 
   ## Contributing 
