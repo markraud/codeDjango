@@ -59,5 +59,16 @@ $ cd mysite                             # this is where the manage.py is located
 
 $ python manage.py runserver            # starts the local webserver.  Once you start the webserver you'll need another terminal to run commands - remember to start your virtual environment in the new terminal
 
+$ python manage.py createsuperuser      # you can create a superuser for the "Admin" page which is at http://localhost:80000/admin.  You won't really need this until you start doing things with databases. 
+
+## Everyting you build in Django is an app.  To add something to your pages use "startapp"
+$ python manage.py startapp pages       # creats a new folder in your project named "pages" 
+(venv) 
+
+## Created a new file in the "pages" folder/app and named it urls.py
+
+## Also need to update the settings.py with the new app that you create. Open setting.py and go to the installed apps list and add 'pages' to the end of it.
+
+## Also add "from django.urls import path" and "urlpatterns = []" to the new urls.py file
 
 
