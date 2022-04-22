@@ -1,0 +1,38 @@
+Codemy Django Course Notes:
+Created new directory @ /c/marks_work_docs/development/codeDjango
+
+$ pip install virtualenv		# install the virtualenv tool
+$ virtualenv .					# create the new virtual environment (inside the current directory with the name = current directory
+
+$ ls							# list new info in the virtual environment
+Lib/  pyvenv.cfg  Scripts/
+
+$ source ./Scripts/activate		# this will start the virtual environment
+$ pip freeze					# lists everything installed via pip (in virtual environment)
+(codeDjango)					# so far we only created the virtual environment in our codeDjango folder... nothing 
+installed
+
+$ deactivate					# to get out of the virtual environment
+$ pip freeze					# now it shows all the things that are installed globally
+altgraph==0.17.2
+distlib==0.3.4
+filelock==3.6.0
+future==0.18.2
+MouseInfo==0.1.3
+pefile==2021.9.3
+Pillow==9.1.0
+platformdirs==2.5.2
+PyAutoGUI==0.9.53
+PyGetWindow==0.0.9
+pyinstaller==5.0
+pyinstaller-hooks-contrib==2022.4
+PyMsgBox==1.0.9
+pyperclip==1.8.2
+PyRect==0.2.0
+PyScreeze==0.1.28
+pytweening==1.0.4
+pywin32-ctypes==0.2.0
+six==1.16.0
+virtualenv==20.14.1
+
+$ source ./Scripts/activate		# puts us back into the virtual environment 
