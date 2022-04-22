@@ -1,19 +1,26 @@
 Codemy Django Course Notes:
 Created new directory @ /c/marks_work_docs/development/codeDjango
 
-$ pip install virtualenv		# install the virtualenv tool
-$ virtualenv .					# create the new virtual environment (inside the current directory with the name = current directory
+$ pip freeze                        # shows what is installed via pip... check to see if virtualenv is installed
+$ pip install virtualenv		    # install the virtualenv tool if not already installed
+$ python -m venv venv			    # create the new virtual environment (inside the current directory with the name = venv)
 
-$ ls							# list new info in the virtual environment
-Lib/  pyvenv.cfg  Scripts/
+$ ls                                # list new info in the virtual environment
+codemyDjangoCourseNotes.txt  README.md  venv/
 
-$ source ./Scripts/activate		# this will start the virtual environment
-$ pip freeze					# lists everything installed via pip (in virtual environment)
-(codeDjango)					# so far we only created the virtual environment in our codeDjango folder... nothing 
+$ source venv/Scripts/activate	    # this will start the virtual environment
+(venv)					            # (venv shows that the virtual environment is active)
+
+$ source venv/Scripts/activate      # activates the virtual environment
+(venv) 
+
+$ pip freeze					    # lists everything installed via pip (in virtual environment)
+(venv)				            	# (venv shows that the virtual environment is active)
 installed
 
-$ deactivate					# to get out of the virtual environment
-$ pip freeze					# now it shows all the things that are installed globally
+$ deactivate			    		# to get out of the virtual environment
+
+$ pip freeze				    	# shows all the things that are installed globally because we are not in the virtual environment
 altgraph==0.17.2
 distlib==0.3.4
 filelock==3.6.0
@@ -35,4 +42,5 @@ pywin32-ctypes==0.2.0
 six==1.16.0
 virtualenv==20.14.1
 
-$ source ./Scripts/activate		# puts us back into the virtual environment 
+
+$ source venv/Scripts/activate  	   # puts us back into the virtual environment 
